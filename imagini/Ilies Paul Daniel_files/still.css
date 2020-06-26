@@ -1,0 +1,373 @@
+html{
+    box-sizing : border-box;
+    }
+    *,*:before, *:after{
+    box-sizing: inherit;
+    }
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0;
+    font-family: "Montserrat",Arial,sans-serif;
+    background-color: #efefef;
+    
+}
+/* HEADER*/
+
+.container
+{
+    background: linear-gradient(90deg, rgba(234,91,49,0.8) 0%, rgba(26,26,53,0.8) 100%);
+    
+    
+}
+.col{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    
+    }
+.list-group-item{
+    margin: 0;
+    padding: 2px;
+}
+.poza-profil
+{
+   width: 154px;
+   height: 154px;
+   border: 2px solid white;
+   border-radius: 100%;
+   margin: 0 auto;
+   padding: 2px; 
+   background-color: white;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #153e4d;
+}
+.pictograma{
+    color: #153e4d ;
+}
+
+
+/************************************************/
+.descriere
+{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-top: 3px;
+    color: #153e4d;
+    border: 1px solid #153e4d;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+
+    
+}
+.descriere h2{
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 30px;
+   
+    
+}
+.descriere p{
+    margin: 10px;
+    padding-bottom: 3px;
+    
+    text-align: center;
+    font-size: 1.4em;
+    
+    
+}
+/* Professional Experience*/
+.experienta{
+    border: 1px solid  #153e4d;
+    margin-top: 3px;
+    
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+.experienta h2{
+    color: #153e4d;
+    font-size: 2.5em;
+}
+
+
+/*******************************/
+hr{
+    border-style: outset;
+    
+}
+/***************CMIE ROMANIA****************/
+
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+    justify-content: center;
+    color: #153e4d;
+}
+
+.grid h3,p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.grid p{
+    color: grey;
+    font-size: 13px;
+    
+    
+}
+.col-cmie{
+    
+}
+.col-cmie img
+{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 150px;
+   margin-bottom: 8px;
+}
+.grid li{
+    list-style-type: none;
+    line-height: 1.7;
+}
+.fa-at{
+    color:#40E0D0;
+}
+.logo-betfair
+{
+    background-color: #153e4d;
+    margin-bottom: 8px;
+}
+.logo-sta
+{
+    width: 90px !important;
+    margin-bottom: 8px;
+}
+ul
+{
+    padding-left: 10px;
+    margin: 0;
+}
+.col-cmie-2{
+    border-left: 1px solid #153e4d;
+}
+.fa-hotel{
+    font-size: 60px;
+    margin-bottom: 8px;
+}
+.flex
+{
+    display: inline-block;
+}
+
+
+.educatie{
+    border: 1px solid #153e4d;
+    border-radius: 5px;
+    
+}
+.col-univ
+{
+    display: flex ;
+    align-content: center;
+    justify-content: center;
+    color: #153e4d;
+}
+.fa-university{
+    font-size: 40px;
+    padding-top: 5px;
+}
+.educatie h2{
+    font-size: 2.5em;
+    margin: 0 auto;
+}
+/*-----------------------------------------------------------------------------*/
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid #153e4d;
+    border-radius: 5px;
+    
+}
+.rau img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000944;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.tuc img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tuc{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    color: #153e4d;
+}
+
+.tuc p,h3{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.rau h3{
+    margin-top: 20px;
+}
+
+.rau{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    color: #153e4d;
+}
+.rau p{
+    color: grey;
+    font-size: 13px;
+}
+.tuc p{
+    color: grey;
+    font-size: 13px;
+}
+
+
+/*-----------------------------------------------------------------*/
+.educatie{
+    border: 1px solid #153e4d;
+    border-radius: 5px;
+    
+}
+.col-univ
+{
+    display: flex ;
+    align-content: center;
+    justify-content: center;
+    color: #153e4d;
+}
+.fa-language{
+    font-size: 40px;
+    padding-top: 5px;
+}
+.educatie h2{
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+  
+
+
+/*-----------------------------------------------------------------*/
+.row-lang{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.col-lang{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #153e4d;
+    font-size: 20px;
+}
+.col-lang{
+    text-align: center;
+}
+.col-lang-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-lang-2{
+    text-align: center;
+    color: #153e4d;
+    font-size: 20px;
+}
+
+
+
+
+
+/***************BETFAIR****************/
+.certificat{
+    border: 1px solid #153e4d;
+    border-radius: 5px;
+    
+}
+.col-cert
+{
+    display: flex ;
+    align-content: center;
+    justify-content: center;
+    color: #153e4d;
+}
+.fa-certificate{
+    font-size: 40px;
+    padding-top: 5px;
+}
+.certificat h2{
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+/***************STA****************/
+.certificare
+{
+display:flex
+
+}
+
+.oracle
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ /***************STA****************/
+
+
+/***************HOTEL****************/
+
+
+
+.blue{
+    background: #7abcff; /* Old browsers */
+    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+}
+

@@ -1,0 +1,544 @@
+html{
+    box-sizing : border-box;
+    }
+    *,*:before, *:after{
+    box-sizing: inherit;
+    
+    }
+body{
+    
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Montserrat",Arial,sans-serif;
+    background-color: #efefef;
+    
+}
+@media only screen and (max-width:440px){
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+/* HEADER*/
+
+.container
+{
+    background: linear-gradient(90deg, rgba(234,91,49,0.8) 0%, rgba(26,26,53,0.8) 100%);
+    
+    
+}
+.col{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    
+    }
+.list-group-item{
+    margin: 0;
+    padding: 2px;
+}
+.poza-profil
+{
+   width: 154px;
+   height: 154px;
+   border: 2px solid white;
+   border-radius: 100%;
+   margin: 0 auto;
+   padding: 2px; 
+   background-color: white;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #153e4d;
+}
+.pictograma{
+    color: #153e4d ;
+}
+
+
+/************************************************/
+.descriere
+{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-top: 3px;
+    color: #153e4d;
+    border: 1px solid #153e4d;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+
+    
+}
+.descriere h2{
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 30px;
+   
+    
+}
+.descriere p{
+    margin: 10px;
+    padding-bottom: 3px;
+    
+    text-align: center;
+    font-size: 1.4em;
+    
+    
+}
+/* Professional Experience*/
+.experienta{
+    border: 1px solid  #153e4d;
+    margin-top: 3px;
+    
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+.experienta h2{
+    color: #153e4d;
+    font-size: 2.5em;
+}
+@media only screen and (max-width:666px){
+.experienta h2{
+    text-align:center;
+}
+}
+
+/*******************************/
+hr{
+    border-style: outset;
+    
+}
+/***************CMIE ROMANIA****************/
+
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+    justify-content: center;
+    color: #153e4d;
+}
+@media only screen and (max-width:500px)
+{
+    
+}
+
+.grid h3,p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.grid p{
+    color: grey;
+    font-size: 13px;
+    
+    
+}
+.col-cmie{
+    
+}
+.col-cmie img
+{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 150px;
+   margin-bottom: 8px;
+}
+@media only screen and (max-width:440px){
+    .col-cmie img{
+        width: 100%;
+    }
+}
+.grid li{
+    list-style-type: none;
+    line-height: 1.7;
+}
+.fa-at{
+    color:#40E0D0;
+}
+.logo-betfair
+{
+    background-color: #153e4d;
+    margin-bottom: 8px;
+}
+@media only screen and (max-width:440px){
+    .logo-betfair{
+        width: 100%;
+    }
+}
+.logo-sta
+{
+    width: 90px !important;
+    margin-bottom: 8px;
+}
+@media only screen and (max-width:440px){
+    .logo-sta{
+        width: 100%;
+    }
+}
+ul
+{
+    padding-left: 10px;
+    margin: 0;
+}
+.col-cmie-2{
+    border-left: 1px solid #153e4d;
+}
+.fa-hotel{
+    font-size: 60px;
+    margin-bottom: 8px;
+}
+.flex
+{
+    display: inline-block;
+}
+
+
+.educatie{
+    border: 1px solid #153e4d;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    
+}
+.col-univ
+{
+    display: flex ;
+    align-content: center;
+    justify-content: center;
+    color: #153e4d;
+}
+.fa-university{
+    font-size: 40px;
+    padding-top: 5px;
+}
+.educatie h2{
+    font-size: 2.5em;
+    margin: 0 auto;
+}
+/*-----------------------------------------------------------------------------*/
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid #153e4d;
+    border-radius: 5px;
+    
+}
+@media only screen and (max-width:687px){
+    .wrapper{
+        display: block;
+    }
+    .tuc{
+        border-bottom: 1px solid #153e4d;
+        
+    }
+}
+.rau img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000944;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.tuc img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tuc{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    color: #153e4d;
+}
+
+.tuc p,h3{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.rau h3{
+    margin-top: 20px;
+}
+
+.rau{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    color: #153e4d;
+}
+.rau p{
+    color: grey;
+    font-size: 13px;
+}
+.tuc p{
+    color: grey;
+    font-size: 13px;
+}
+
+
+/*-----------------------------------------------------------------*/
+.educatie{
+    border: 1px solid #153e4d;
+    border-radius: 5px;
+    
+}
+@media only screen and (max-width:373px){
+    .educatie{
+        text-align: center;
+    }
+}
+.col-univ
+{
+    display: flex ;
+    align-content: center;
+    justify-content: center;
+    color: #153e4d;
+}
+@media only screen and (max-width:415px){
+    .educatie h2{
+        text-align: center;
+    }
+}
+.fa-language{
+    font-size: 40px;
+    padding-top: 5px;
+}
+.educatie h2{
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+  
+
+
+/*-----------------------------------------------------------------*/
+.row-lang{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width:390px){
+    .row-lang{
+        display: block;
+    }
+}
+.col-lang{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #153e4d;
+    font-size: 20px;
+}
+.col-lang{
+    text-align: center;
+}
+.col-lang-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-lang-2{
+    text-align: center;
+    color: #153e4d;
+    font-size: 20px;
+}
+
+
+
+
+
+/***************BETFAIR****************/
+.certificat{
+    border: 1px solid #153e4d;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    
+}
+.col-cert
+{
+    display: flex ;
+    align-content: center;
+    justify-content: center;
+    color: #153e4d;
+}
+.fa-certificate{
+    font-size: 40px;
+    padding-top: 5px;
+}
+.certificat h2{
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+/***************STA****************/
+.certificare
+{
+display:flex
+
+}
+
+.oracle
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ /***************STA****************/
+.certificare
+{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cont-cert img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 150px;
+    height: 150px;
+}
+.cont-cert a{
+    color: #153e4d;
+}
+.cont-cert a:hover{
+    color: #F5593D;
+}
+
+
+/***************HOTEL****************/
+.skills{
+    border: 1px solid #153e4d;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    
+}
+.col-skill
+{
+    display: flex ;
+    align-content: center;
+    justify-content: center;
+    color: #153e4d;
+}
+
+.skills h2{
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+/***************HOTEL****************/
+
+.grid-wrapper{
+    display: grid;
+    gap: 20px 200px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 25% ;
+    align-items: center;
+    justify-content: center;
+    color: #153e4d;
+}
+@media only screen and (max-width:666px){
+    .grid-wrapper{
+        gap: 5px 70px;
+    }
+}
+
+
+.box{
+    
+    margin: 0;
+    padding: 0;
+    width: auto;
+    text-align: center;
+    
+}
+.marime{
+   font-size: 64px;
+   margin: 0;
+   padding: 0;
+}
+@media only screen and (max-width:500px)
+{
+    .marime{
+        font-size: 40px;
+    }
+    
+}
+.fa-html5
+{
+    color: #e34c24;
+    
+}
+.fa-css3-alt{
+color: #359cd4;
+}
+.fa-bootstrap{
+color:#563d7c;
+}
+.fa-file-excel{
+color:#1c7444;
+}
+.fa-file-word{
+color:#2b569a;
+}
+.box img{
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width:500px){
+    .box img{
+        width: 40px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+/********/
+footer{
+    background: linear-gradient(90deg, rgba(234,91,49,0.8) 0%, rgba(26,26,53,0.8) 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+   text-align: center;
+   color: white;
+    
+}
+.fa-linkedin{
+    font-size: 25px;
+    padding-left: 10px;
+}
